@@ -7,7 +7,7 @@ st.title("Customize Your Smoothie!")
 st.write("Choose the fruits you want in your custom Smoothie!")
 
 # Snowflake session
-cnx = st.connection("snowflake")
+cnx = st.connection("snowflake",type="snowflake")
 session = cnx.session()
 
 # Name input
